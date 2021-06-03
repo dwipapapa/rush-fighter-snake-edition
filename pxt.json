@@ -1,0 +1,33 @@
+{
+    "name": "Rush Fighter: Snake Edition",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "character-animations": "github:riknoll/character-animations#v0.3.0",
+        "Color Fading": "github:jwunderl/pxt-color#v0.2.1",
+        "arcade-sprite-util": "github:jwunderl/arcade-sprite-util#v0.2.0",
+        "pxt-lantern": "github:riknoll/pxt-lantern#v0.1.1",
+        "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.4.1",
+        "arcade-sprite-data": "github:microsoft/arcade-sprite-data#v0.1.0",
+        "arcade-story": "github:microsoft/arcade-storytelling#v1.0.1"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "1.4.44",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
