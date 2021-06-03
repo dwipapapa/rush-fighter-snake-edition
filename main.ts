@@ -105,6 +105,7 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
             projectile.vy = Speed_of_Projecile
         }
     } else {
+        started = true
         mySprite3.destroy()
         intro()
         story.startCutscene(function () {
@@ -526,7 +527,6 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
             statusbar.setBarBorder(1, 12)
             statusbar.attachToSprite(mySprite)
             statusbar.max = 100
-            started = true
             Wave2()
         })
     }
